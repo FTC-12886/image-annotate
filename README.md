@@ -13,11 +13,7 @@ Python program to annotate images for object detection. Outputs a csv file. Don'
   </div>
   
 ## Preparing the Program
-  
   1. Install "Python 3.9" from Self Service
-  <div align="center">
-  <img width="217" alt="Python entry in Self Service" src="https://user-images.githubusercontent.com/49379586/141798538-5c04e9df-e08f-4b5e-9f17-483864bdb1e0.png">
-  </div>
   2. Download "image-label.py" from this repository
   3. Open the file in "IDLE"
   4. Enter the path you want the output file to be placed in the "csv_path" variable. Replace "lica" with your username. All folders are separated by a "/". For example, "/Users/lica/Documents/training/label.csv" means going from the "Users" folder into the "lica" folder into some more folders and finally ending at "label.csv", the name of the output file  
