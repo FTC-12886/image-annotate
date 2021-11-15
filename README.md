@@ -6,15 +6,17 @@ Python program to annotate images for object detection. Outputs a csv file. Don'
   1. Make a folder to store your images that is easy to access. Avoid using spaces or special characters (underscores are okay).
   2. Copy your images into this folder
   3. Make sure all your images are the same type (e.g. all jpeg or all png). Images that have JPEG or JPG file extensions can be renamed to JPG or JPEG without file conversions, but all other images should be converted.
-  4. Rename each of of the images with the format <prefix><index number> (e.g. img1, img2, etc.)
-  In macOs, you can select all of the images and do a bulk rename operation that can number the images for you
+  4. Rename each of of the images with the format \<prefix\>\<number\> (e.g. img1, img2, etc.)
+  In macOS, you can select all of the images and do a bulk rename operation that can number the images for you
+  <img width="601" alt="macOS' bulk rename example" src="https://user-images.githubusercontent.com/49379586/141716576-abb341af-a7c1-473e-828e-5f87614463b2.png">
+
   
 ## Preparing the Program
   
   1. Install "Python 3.9" from Self Service
   2. Download "image-label.py" from this repository
   3. Open the file in "IDLE"
-  4. Enter the path you want the output file to be placed in the "csv_path" variable. Replace "lica" with your username. All folders are separated by a "/". For example, "/Users/lica/Documents/training/label.csv" means going from the "Users" folder into the "lica" folder into some more folders anad finally ending at "label.csv", the name of the output file  
+  4. Enter the path you want the output file to be placed in the "csv_path" variable. Replace "lica" with your username. All folders are separated by a "/". For example, "/Users/lica/Documents/training/label.csv" means going from the "Users" folder into the "lica" folder into some more folders and finally ending at "label.csv", the name of the output file  
   ```python
   csv_path = "/Users/lica/Documents/training/label.csv" # output file
   ```
