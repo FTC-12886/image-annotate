@@ -1,0 +1,100 @@
+UNASSIGNED,C:\Users\stuff\environment\env\training\img1.jpg,duck,0.238834951,0.77002584,,,0.317475728,0.857881137
+TRAINING,C:\Users\stuff\environment\env\training\img1.jpg,cube,0.159223301,0.643410853,,,0.272815534,0.77002584
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,cube,0.716504854,0.439276486,,,0.732038835,0.45994832
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,duck,0.372815534,0.763565891,,,0.397087379,0.793281654
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,duck,0.13592233,0.620155039,,,0.155339806,0.643410853
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,duck,0.648543689,0.506459948,,,0.66407767,0.523255814
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,cube,0.914563107,0.50129199,,,0.931067961,0.524547804
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,cube,0.975728155,0.54005168,,,0.99223301,0.562015504
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,cube,0.938834951,0.532299742,,,0.957281553,0.554263566
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,ball,0.793203883,0.468992248,,,0.813592233,0.489664083
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,ball,0.873786408,0.476744186,,,0.889320388,0.494832041
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,ball,0.933980583,0.487080103,,,0.954368932,0.506459948
+TRAINING,C:\Users\stuff\environment\env\training\img2.jpg,cube,0.965048544,0.502583979,,,0.984466019,0.524547804
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,cube,0.560194175,0.625322997,,,0.609708738,0.687338501
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,cube,0.433980583,0.704134367,,,0.473786408,0.741602067
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,cube,0.594174757,0.715762274,,,0.631067961,0.763565891
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,cube,0.5,0.633074935,,,0.537864078,0.660206718
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.523300971,0.563307494,,,0.570873786,0.609819121
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.393203883,0.73255814,,,0.448543689,0.780361757
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.551456311,0.715762274,,,0.59223301,0.754521964
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.47184466,0.719638243,,,0.517475728,0.757105943
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.462135922,0.780361757,,,0.505825243,0.826873385
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.534951456,0.757105943,,,0.585436893,0.799741602
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.608737864,0.686046512,,,0.649514563,0.727390181
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,ball,0.453398058,0.877260982,,,0.501941748,0.939276486
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,cube,0.469902913,0.677002584,,,0.504854369,0.705426357
+TRAINING,C:\Users\stuff\environment\env\training\img3.jpg,duck,0.150485437,0.244186047,,,0.185436893,0.27002584
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,duck,0.076699029,0.651162791,,,0.103883495,0.679586563
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,duck,0.380582524,0.356589147,,,0.396116505,0.374677003
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,cube,0.445631068,0.286821705,,,0.462135922,0.30749354
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,cube,0.64368932,0.374677003,,,0.658252427,0.394056848
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,cube,0.67184466,0.381136951,,,0.683495146,0.399224806
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,cube,0.718446602,0.399224806,,,0.733009709,0.418604651
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,cube,0.625242718,0.350129199,,,0.633009709,0.366925065
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,ball,0.518446602,0.319121447,,,0.534951456,0.335917313
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,ball,0.588349515,0.321705426,,,0.606796117,0.342377261
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,ball,0.641747573,0.333333333,,,0.655339806,0.34754522
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,ball,0.611650485,0.326873385,,,0.627184466,0.34754522
+TRAINING,C:\Users\stuff\environment\env\training\img4.jpg,ball,0.700970874,0.343669251,,,0.712621359,0.360465116
+TRAINING,C:\Users\stuff\environment\env\training\img5.jpg,duck,0.57184466,0.680878553,,,0.610679612,0.724806202
+TRAINING,C:\Users\stuff\environment\env\training\img5.jpg,duck,0.20776699,0.403100775,,,0.242718447,0.436692506
+TRAINING,C:\Users\stuff\environment\env\training\img6.jpg,cube,0.172815534,0.812661499,,,0.322330097,0.984496124
+TRAINING,C:\Users\stuff\environment\env\training\img7.jpg,duck,0.875728155,0.855297158,,,0.972815534,0.952196382
+TRAINING,C:\Users\stuff\environment\env\training\img8.jpg,duck,0.830097087,0.88501292,,,0.923300971,0.989664083
+TRAINING,C:\Users\stuff\environment\env\training\img9.jpg,duck,0.230097087,0.737726098,,,0.333009709,0.856589147
+TRAINING,C:\Users\stuff\environment\env\training\img9.jpg,cube,0.14368932,0.556847545,,,0.303883495,0.728682171
+TRAINING,C:\Users\stuff\environment\env\training\img10.jpg,cube,0.724271845,0.843669251,,,0.849514563,0.988372093
+TRAINING,C:\Users\stuff\environment\env\training\img11.jpg,cube,0.72815534,0.854005168,,,0.852427184,0.990956072
+TRAINING,C:\Users\stuff\environment\env\training\img12.jpg,cube,0.225242718,0.760981912,,,0.006796117,0.944444444
+TRAINING,C:\Users\stuff\environment\env\training\img13.jpg,duck,0.798058252,0.245478036,,,0.817475728,0.272609819
+TRAINING,C:\Users\stuff\environment\env\training\img14.jpg,cube,0.506796117,0.92118863,,,0.555339806,0.980620155
+TRAINING,C:\Users\stuff\environment\env\training\img14.jpg,duck,0.603883495,0.891472868,,,0.640776699,0.935400517
+TRAINING,C:\Users\stuff\environment\env\training\img16.jpg,cube,0.12815534,0.624031008,,,0.003883495,0.773901809
+TRAINING,C:\Users\stuff\environment\env\training\img17.jpg,cube,0.627184466,0.014211886,,,0.732038835,0.091731266
+TRAINING,C:\Users\stuff\environment\env\training\img18.jpg,cube,0.626213592,0.024547804,,,0.730097087,0.108527132
+TRAINING,C:\Users\stuff\environment\env\training\img19.jpg,cube,0.630097087,0.723514212,,,0.702912621,0.850129199
+TRAINING,C:\Users\stuff\environment\env\training\img19.jpg,duck,0.708737864,0.766149871,,,0.777669903,0.852713178
+TRAINING,C:\Users\stuff\environment\env\training\img20.jpg,cube,0.869902913,0.888888889,,,0.946601942,0.984496124
+TRAINING,C:\Users\stuff\environment\env\training\img20.jpg,duck,0.947572816,0.899224806,,,0.993203883,0.976744186
+TRAINING,C:\Users\stuff\environment\env\training\img21.jpg,cube,0.674757282,0.92118863,,,0.751456311,0.992248062
+TRAINING,C:\Users\stuff\environment\env\training\img22.jpg,cube,0.483495146,0.817829457,,,0.534951456,0.872093023
+TRAINING,C:\Users\stuff\environment\env\training\img22.jpg,ball,0.316504854,0.698966408,,,0.363106796,0.741602067
+TRAINING,C:\Users\stuff\environment\env\training\img23.jpg,cube,0.588349515,0.661498708,,,0.630097087,0.715762274
+TRAINING,C:\Users\stuff\environment\env\training\img24.jpg,cube,0.250485437,0.282945736,,,0.29223301,0.325581395
+TRAINING,C:\Users\stuff\environment\env\training\img25.jpg,cube,0.238834951,0.26873385,,,0.277669903,0.315245478
+TRAINING,C:\Users\stuff\environment\env\training\img26.jpg,cube,0.294174757,0.285529716,,,0.35631068,0.325581395
+TRAINING,C:\Users\stuff\environment\env\training\img27.jpg,cube,0.103883495,0.245478036,,,0.212621359,0.320413437
+TRAINING,C:\Users\stuff\environment\env\training\img27.jpg,ball,0.493203883,0.382428941,,,0.59223301,0.483204134
+TRAINING,C:\Users\stuff\environment\env\training\img28.jpg,ball,0.496116505,0.38501292,,,0.6,0.492248062
+VALIDATION,C:\Users\stuff\environment\env\training\img28.jpg,cube,0.1,0.251937984,,,0.218446602,0.321705426
+VALIDATION,C:\Users\stuff\environment\env\training\img29.jpg,duck,0.085436893,0.457364341,,,0.112621359,0.484496124
+VALIDATION,C:\Users\stuff\environment\env\training\img30.jpg,duck,0.388349515,0.140826873,,,0.436893204,0.19379845
+VALIDATION,C:\Users\stuff\environment\env\training\img30.jpg,cube,0.17961165,0.071059432,,,0.241747573,0.135658915
+VALIDATION,C:\Users\stuff\environment\env\training\img31.jpg,cube,0.181553398,0.063307494,,,0.242718447,0.129198966
+VALIDATION,C:\Users\stuff\environment\env\training\img31.jpg,duck,0.393203883,0.138242894,,,0.436893204,0.195090439
+VALIDATION,C:\Users\stuff\environment\env\training\img32.jpg,duck,0.355339806,0.582687339,,,0.412621359,0.636950904
+VALIDATION,C:\Users\stuff\environment\env\training\img32.jpg,cube,0.500970874,0.511627907,,,0.576699029,0.581395349
+TEST,C:\Users\stuff\environment\env\training\img32.jpg,ball,0.360194175,0.370801034,,,0.429126214,0.458656331
+TEST,C:\Users\stuff\environment\env\training\img33.jpg,cube,0.396116505,0.887596899,,,0.474757282,0.992248062
+TEST,C:\Users\stuff\environment\env\training\img34.jpg,cube,0.404854369,0.88501292,,,0.484466019,0.996124031
+TEST,C:\Users\stuff\environment\env\training\img35.jpg,cube,0.029126214,0.627906977,,,0.278640777,0.875968992
+TEST,C:\Users\stuff\environment\env\training\img36.jpg,cube,0.304854369,0.599483204,,,0.361165049,0.667958656
+TEST,C:\Users\stuff\environment\env\training\img37.jpg,cube,0.250485437,0.909560724,,,0.324271845,0.990956072
+TEST,C:\Users\stuff\environment\env\training\img38.jpg,cube,0.081553398,0.803617571,,,0.188349515,0.918604651
+TEST,C:\Users\stuff\environment\env\training\img39.jpg,cube,0.07961165,0.799741602,,,0.193203883,0.895348837
+TEST,C:\Users\stuff\environment\env\training\img12.jpg,cube,0.636893204,0.735142119,,,0.87184466,0.912144703UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.002912621359223301,0.9935400516795866,,,0.9932038834951457,0.00516795865633075,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9951456310679612,0.00516795865633075,,,0.9951456310679612,0.00516795865633075,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9951456310679612,0.00516795865633075,,,0.9951456310679612,0.00516795865633075,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9951456310679612,0.00516795865633075,,,0.9951456310679612,0.00516795865633075,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.002912621359223301,0.003875968992248062,,,0.002912621359223301,0.003875968992248062,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.002912621359223301,0.003875968992248062,,,0.002912621359223301,0.003875968992248062,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.002912621359223301,0.003875968992248062,,,0.002912621359223301,0.003875968992248062,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.007766990291262136,0.011627906976744186,,,0.0048543689320388345,0.00516795865633075,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.003883495145631068,0.00516795865633075,,,0.996116504854369,0.9974160206718347,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.996116504854369,0.9974160206718347,,,0.996116504854369,0.9987080103359173,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9980582524271845,1.0,,,0.9980582524271845,1.0,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9980582524271845,1.0,,,0.9980582524271845,0.9974160206718347,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9980582524271845,0.9974160206718347,,,0.9980582524271845,0.9974160206718347,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.9980582524271845,0.9974160206718347,,,0.9980582524271845,0.9974160206718347,,
+UNASSIGNED,C:\Users\stuff\environment\env\training\img 29.jpg,duck,0.6669902912621359,0.4689922480620155,,,0.7223300970873786,0.6098191214470284,,
