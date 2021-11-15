@@ -55,10 +55,10 @@ Python program to annotate images for object detection. Outputs a csv file. Don'
 ## Processing the Output File
   1. Open the output csv file in a program like Excel
   2. Edit the path of the images to the path where the images are going to be stored on the model making computer
-  If you opened the program multiple times:
-  1. Check for any entries that are not on their own line
-  2. Move these entries to a new line. Entry order does not matter.
-  Ensure the csv file is ready to go and that it adheres to [these standards](https://cloud.google.com/vision/automl/object-detection/docs/prepare)
+  3. Change "UNASSIGNED" to "TRAINING", "VALIDATION", or "TEST" to specify which pieces of data should be used in the training, validation, and test steps. Many people split their entries into 80% training, 10% validation, and 10% test.
+  4. Check for any entries that are not on their own line
+  5. Move these entries to a new line. Entry order does not matter.
+  6. Ensure the csv file is ready to go and that it adheres to [these standards](https://cloud.google.com/vision/automl/object-detection/docs/prepare)
   
 ## Troubleshooting
   Q: I cannot see the rectangle when selecting objects  
