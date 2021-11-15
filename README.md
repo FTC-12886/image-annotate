@@ -44,7 +44,7 @@ Python program to annotate images for object detection. Outputs a csv file. Don'
   3. Imagine a box around the thing you want to select
   4. Click on the image where of the corners of that box is
   5. Click on the image where the opposite corner of that box is. A colored rectangle should appear around the object and annotations should be added to the output file.
-  6. Continue adding more rectangles around objects in the image, changing the selected classificaion in the dropdown menu as necessary. Different classifications have different rectangle colors.
+  6. Continue adding more rectangles around objects in the image, changing the selected classification in the dropdown menu as necessary. Different classifications have different rectangle colors.
   7. If you make a mistake, click the "Undo" button. If you want to clear the image of all annotations, click the "Clear" button
   8. Click the "Done" button to move to the next image. If there is nothing to annotate, just click done.
   9. The program will exit automatically when all images are annotated
@@ -61,5 +61,6 @@ Python program to annotate images for object detection. Outputs a csv file. Don'
 ## Troubleshooting
   Q: I cannot see the rectangle when selecting objects  
   A: Check IDLE and see if coordinates for "first" and "second" are being printed. If they are and you cannot see the rectangle, go to the code at the end of line 57 and change "width"
+  
   
   
