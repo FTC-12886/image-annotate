@@ -1,4 +1,4 @@
-# This program outputs a csv file that is NOT ready for use in the tflite model maker
+# This program outputs a csv file that is ready for use in the tflite model maker
 # given that the model creation happens locally on the same computer.
 # ALWAYS open the csv file in a program like Excel and edit cells as necessary before using the model maker
 import tkinter as tk
