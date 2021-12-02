@@ -9,39 +9,18 @@ from PIL import ImageTk, Image
 root = tk.Tk()
 
 
-csv_path = "/Users/lica/Documents/training/label.csv" # output file
-directory = "/Users/lica/Documents/training/img" # directory with images plus any prefix
-i = 1 #image number to start at
-path = directory+str(i)+".jpg" # combines directory, image number, and file extension
+def getImage(i):
+    global directory, path
+    path = directory+str(i)+".jpg" # combines directory, image number, and file extension
+    # open image
+    try:
+        photo = Image.open(path)
+    except FileNotFoundError:
+        return None
+    photo = photo.resize((1024, 768), Image.ANTIALIAS)
+    photo = ImageTk.PhotoImage(photo)
+    return photo
 
-# open first image
-photo = Image.open(path)
-photo = photo.resize((1024, 768), Image.ANTIALIAS)
-photo = ImageTk.PhotoImage(photo)
-
-# setup canvas
-w = Canvas(root, width=photo.width(), height=photo.height())
-w.pack()
-w2 = Canvas(root, width=100, height=100)
-w2.pack()
-
-# display image
-current_image = w.create_image(0, 0, anchor=NW, image=photo)
-
-# options and colors for classification
-options = ["duck", "cube", "ball", "team"]
-colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "cyan", "white", "black"]
-clicked = StringVar()
-clicked.set("duck") # default classificatiion
-drop = OptionMenu(w2, clicked, *options)
-drop.pack()
-
-rectangles = []
-history = []
-x1 = 0
-y1 = 0
-x2 = 0
-y2 = 0
 def getfirst(event): #first click
     global x1, y1
     x1 = event.x
@@ -69,20 +48,13 @@ def getsecond(event): # second click
         f.write(line)
     w.bind("<Button-1>", getfirst)
 
-w.bind("<Button-1>", getfirst)
-
 def done(): # switch to next image
     global i, current_image, photo, path
     i = i+1
-    path = directory+str(i)+".jpg"
-    try:
-        photo = Image.open(path)
-    except FileNotFoundError:
+    photo = getImage(i)
+    if (photo == None):
         print("No more images")
         exit()
-
-    photo = photo.resize((1024, 768), Image.ANTIALIAS)
-    photo = ImageTk.PhotoImage(photo)
     w.delete(current_image)
     current_image = w.create_image(0, 0, anchor=NW, image=photo)
 
@@ -115,7 +87,43 @@ def undo(): # delete last rectangle and csv entry
         f.writelines(lines)
         f.truncate()
     print("undo")
+    
+csv_path = "/Users/lica/Documents/training/label.csv" # output file
+directory = "/Users/lica/Documents/training/img" # directory with images plus any prefix
+i = 1 #image number to start at
 
+# open first image
+photo = getImage(i)
+
+# setup canvas
+w = Canvas(root, width=photo.width(), height=photo.height())
+w.pack()
+w2 = Canvas(root, width=100, height=100)
+w2.pack()
+
+# display image
+current_image = w.create_image(0, 0, anchor=NW, image=photo)
+
+# options and colors for classification
+options = ["team"]
+colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "cyan", "white", "black"]
+clicked = StringVar()
+clicked.set("team") # default classificatiion
+drop = OptionMenu(w2, clicked, *options)
+drop.pack()
+
+rectangles = []
+history = []
+x1 = 0
+y1 = 0
+x2 = 0
+y2 = 0
+with open(csv_path, "r+") as f:
+        lines = f.readlines()
+        lines.append("\n")
+        f.writelines(lines)
+
+w.bind("<Button-1>", getfirst)
 done_button = tk.Button(w2, text="Done", command=done).pack()
 clear_button = tk.Button(w2, text="Clear", command=clear).pack()
 undo_button = tk.Button(w2, text="Undo", command=undo).pack()
