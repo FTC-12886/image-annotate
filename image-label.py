@@ -48,7 +48,7 @@ def getsecond(event): # second click
         f.write(line)
     w.bind("<Button-1>", getfirst)
 
-def done(): # switch to next image
+def done(event=None): # switch to next image
     global i, current_image, photo, path
     i = i+1
     photo = getImage(i)
@@ -88,8 +88,8 @@ def undo(): # delete last rectangle and csv entry
         f.truncate()
     print("undo")
     
-csv_path = "/Users/lica/Documents/training/label.csv" # output file
-directory = "/Users/lica/Documents/training/img" # directory with images plus any prefix
+csv_path = "./label.csv" # output file
+directory = "./training/img" # directory with images plus any prefix
 i = 1 #image number to start at
 
 # open first image
@@ -118,12 +118,15 @@ x1 = 0
 y1 = 0
 x2 = 0
 y2 = 0
-with open(csv_path, "r+") as f:
-        lines = f.readlines()
-        lines.append("\n")
-        f.writelines(lines)
-
+try:
+    with open(csv_path, "r+") as f:
+            lines = f.readlines()
+            lines.append("\n")
+            f.writelines(lines)
+except FileNotFoundError:
+    pass
 w.bind("<Button-1>", getfirst)
+w2.bind("<Return>", done)
 done_button = tk.Button(w2, text="Done", command=done).pack()
 clear_button = tk.Button(w2, text="Clear", command=clear).pack()
 undo_button = tk.Button(w2, text="Undo", command=undo).pack()
