@@ -88,8 +88,8 @@ def undo(): # delete last rectangle and csv entry
         f.truncate()
     print("undo")
     
-csv_path = "./label.csv" # output file
-directory = "./training/img" # directory with images plus any prefix
+csv_path = "./training2/label.csv" # output file
+directory = "./training2/img" # directory with images plus any prefix
 i = 1 #image number to start at
 
 # open first image
@@ -105,7 +105,7 @@ w2.pack()
 current_image = w.create_image(0, 0, anchor=NW, image=photo)
 
 # options and colors for classification
-options = ["team"]
+options = ["teamv2"]
 colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "cyan", "white", "black"]
 clicked = StringVar()
 clicked.set("team") # default classificatiion
