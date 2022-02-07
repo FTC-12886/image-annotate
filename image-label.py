@@ -19,6 +19,7 @@ def getImage(i):
         return None
     photo = photo.resize((1024, 768), Image.ANTIALIAS)
     photo = ImageTk.PhotoImage(photo)
+    print(path)
     return photo
 
 def getfirst(event): #first click
@@ -90,7 +91,7 @@ def undo(): # delete last rectangle and csv entry
     
 csv_path = "./training2/label.csv" # output file
 directory = "./training2/img" # directory with images plus any prefix
-i = 1 #image number to start at
+i = 680 #image number to start at
 
 # open first image
 photo = getImage(i)
@@ -108,7 +109,7 @@ current_image = w.create_image(0, 0, anchor=NW, image=photo)
 options = ["teamv2"]
 colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "cyan", "white", "black"]
 clicked = StringVar()
-clicked.set("team") # default classificatiion
+clicked.set(options[0]) # default classificatiion
 drop = OptionMenu(w2, clicked, *options)
 drop.pack()
 
