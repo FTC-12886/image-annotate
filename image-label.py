@@ -91,7 +91,7 @@ def undo(): # delete last rectangle and csv entry
     
 csv_path = "./training2/label.csv" # output file
 directory = "./training2/img" # directory with images plus any prefix
-i = 680 #image number to start at
+i = 768 #image number to start at
 
 # open first image
 photo = getImage(i)

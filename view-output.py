@@ -33,8 +33,8 @@ rectangles = []
 colors = ["red", "green", "blue", "yellow", "orange", "purple", "pink", "cyan", "white", "black"]
 i = 0
 
-csv_path = "./label.csv" # output file
-directory = "./training/img" # directory with images plus any prefix
+csv_path = "./training2/label.csv" # output file
+directory = "./training2/img" # directory with images plus any prefix
 f = open(csv_path, "r")
 lines = f.readlines()
 data = parseLine(lines[i])
